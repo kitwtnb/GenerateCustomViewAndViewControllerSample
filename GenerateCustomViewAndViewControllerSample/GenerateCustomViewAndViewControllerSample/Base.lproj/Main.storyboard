@@ -21,11 +21,17 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bq9-mu-Tbp" customClass="XibCustomClassView" customModule="GenerateCustomViewAndViewControllerSample" customModuleProvider="target">
+                                <rect key="frame" x="87" y="384" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
+                        <outlet property="xibCustomClassViewFromStoryboard" destination="bq9-mu-Tbp" id="8hE-3e-IyF"/>
                         <outlet property="xibFilesOwnerViewFromStoryboard" destination="WJW-3i-dyC" id="qeE-EH-6Wu"/>
                     </connections>
                 </viewController>
