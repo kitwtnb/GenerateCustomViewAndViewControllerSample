@@ -21,6 +21,8 @@
 		A788A97525D7BF5C005D5957 /* CodeOnlyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A788A97425D7BF5C005D5957 /* CodeOnlyViewController.swift */; };
 		A788A97925D7C312005D5957 /* XibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A788A97725D7C312005D5957 /* XibViewController.swift */; };
 		A788A97A25D7C312005D5957 /* XibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A788A97825D7C312005D5957 /* XibViewController.xib */; };
+		A788A97D25D7C858005D5957 /* StoryboardViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A788A97C25D7C858005D5957 /* StoryboardViewController.storyboard */; };
+		A788A98025D7C901005D5957 /* StoryboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A788A97F25D7C901005D5957 /* StoryboardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		A788A97425D7BF5C005D5957 /* CodeOnlyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeOnlyViewController.swift; sourceTree = "<group>"; };
 		A788A97725D7C312005D5957 /* XibViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibViewController.swift; sourceTree = "<group>"; };
 		A788A97825D7C312005D5957 /* XibViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibViewController.xib; sourceTree = "<group>"; };
+		A788A97C25D7C858005D5957 /* StoryboardViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StoryboardViewController.storyboard; sourceTree = "<group>"; };
+		A788A97F25D7C901005D5957 /* StoryboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				A788A97425D7BF5C005D5957 /* CodeOnlyViewController.swift */,
 				A788A97725D7C312005D5957 /* XibViewController.swift */,
 				A788A97825D7C312005D5957 /* XibViewController.xib */,
+				A788A97F25D7C901005D5957 /* StoryboardViewController.swift */,
+				A788A97C25D7C858005D5957 /* StoryboardViewController.storyboard */,
 			);
 			path = CustomViewController;
 			sourceTree = "<group>";
@@ -169,6 +175,7 @@
 				A788A95625D79E76005D5957 /* Assets.xcassets in Resources */,
 				A788A96725D7A1CD005D5957 /* XibFilesOwnerView.xib in Resources */,
 				A788A97A25D7C312005D5957 /* XibViewController.xib in Resources */,
+				A788A97D25D7C858005D5957 /* StoryboardViewController.storyboard in Resources */,
 				A788A95425D79E76005D5957 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -187,6 +194,7 @@
 				A788A97925D7C312005D5957 /* XibViewController.swift in Sources */,
 				A788A94D25D79E76005D5957 /* AppDelegate.swift in Sources */,
 				A788A96A25D7A26E005D5957 /* XibFilesOwnerView.swift in Sources */,
+				A788A98025D7C901005D5957 /* StoryboardViewController.swift in Sources */,
 				A788A94F25D79E76005D5957 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

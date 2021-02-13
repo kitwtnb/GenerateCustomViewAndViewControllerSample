@@ -30,5 +30,10 @@ class ViewController: UIViewController {
     }
 
     @IBAction func didTapTransitionToStoryboardViewController(_ sender: Any) {
+        let storyboard = UIStoryboard(name: String(describing: StoryboardViewController.self), bundle: nil)
+        let storyViewController: StoryboardViewController = storyboard.instantiateViewController(identifier: "StoryboardId") { coder in
+            StoryboardViewController(coder: coder, arg: nil)
+        }
+        present(storyViewController, animated: true, completion: nil)
     }
 }
