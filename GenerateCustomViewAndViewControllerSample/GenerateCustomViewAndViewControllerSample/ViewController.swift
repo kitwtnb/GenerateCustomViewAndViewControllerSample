@@ -19,5 +19,8 @@ class ViewController: UIViewController {
 
         let xibCustomClassViewFromCode = XibCustomClassView.load(arg: nil)
         precondition(xibCustomClassViewFromCode.label != nil)
+
+        let codeOnlyViewController = CodeOnlyViewController()
+        precondition(codeOnlyViewController.label != nil)
     }
 }
