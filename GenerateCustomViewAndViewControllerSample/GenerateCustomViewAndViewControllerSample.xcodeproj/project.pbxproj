@@ -56,6 +56,8 @@
 		A788A94B25D79E76005D5957 /* GenerateCustomViewAndViewControllerSample */ = {
 			isa = PBXGroup;
 			children = (
+				A788A96125D79FB1005D5957 /* CustomView */,
+				A788A96225D79FC1005D5957 /* CustomViewController */,
 				A788A94C25D79E76005D5957 /* AppDelegate.swift */,
 				A788A94E25D79E76005D5957 /* SceneDelegate.swift */,
 				A788A95025D79E76005D5957 /* ViewController.swift */,
@@ -65,6 +67,20 @@
 				A788A95A25D79E76005D5957 /* Info.plist */,
 			);
 			path = GenerateCustomViewAndViewControllerSample;
+			sourceTree = "<group>";
+		};
+		A788A96125D79FB1005D5957 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		A788A96225D79FC1005D5957 /* CustomViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
