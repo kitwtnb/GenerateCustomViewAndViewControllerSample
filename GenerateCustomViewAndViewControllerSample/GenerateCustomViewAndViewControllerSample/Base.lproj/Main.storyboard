@@ -26,6 +26,22 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1n0-qO-YUw" userLabel="Transition To Xib ViewController">
+                                <rect key="frame" x="105" y="433" width="205" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="TransitionToXibViewController"/>
+                                <connections>
+                                    <action selector="didTapTransitionToXibViewController:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U1M-J7-1vc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oYU-Zl-eVm">
+                                <rect key="frame" x="128" y="520" width="159" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="TransitionToStoryboard"/>
+                                <connections>
+                                    <action selector="didTapTransitionToStoryboardViewController:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X6X-5I-4Dn"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>

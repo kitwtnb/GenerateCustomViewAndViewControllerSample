@@ -19,6 +19,8 @@
 		A788A96F25D7B47E005D5957 /* XibCustomClassView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A788A96E25D7B47E005D5957 /* XibCustomClassView.xib */; };
 		A788A97225D7B48B005D5957 /* XibCustomClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A788A97125D7B48B005D5957 /* XibCustomClassView.swift */; };
 		A788A97525D7BF5C005D5957 /* CodeOnlyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A788A97425D7BF5C005D5957 /* CodeOnlyViewController.swift */; };
+		A788A97925D7C312005D5957 /* XibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A788A97725D7C312005D5957 /* XibViewController.swift */; };
+		A788A97A25D7C312005D5957 /* XibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A788A97825D7C312005D5957 /* XibViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		A788A96E25D7B47E005D5957 /* XibCustomClassView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibCustomClassView.xib; sourceTree = "<group>"; };
 		A788A97125D7B48B005D5957 /* XibCustomClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibCustomClassView.swift; sourceTree = "<group>"; };
 		A788A97425D7BF5C005D5957 /* CodeOnlyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeOnlyViewController.swift; sourceTree = "<group>"; };
+		A788A97725D7C312005D5957 /* XibViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibViewController.swift; sourceTree = "<group>"; };
+		A788A97825D7C312005D5957 /* XibViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			isa = PBXGroup;
 			children = (
 				A788A97425D7BF5C005D5957 /* CodeOnlyViewController.swift */,
+				A788A97725D7C312005D5957 /* XibViewController.swift */,
+				A788A97825D7C312005D5957 /* XibViewController.xib */,
 			);
 			path = CustomViewController;
 			sourceTree = "<group>";
@@ -162,6 +168,7 @@
 				A788A95925D79E76005D5957 /* LaunchScreen.storyboard in Resources */,
 				A788A95625D79E76005D5957 /* Assets.xcassets in Resources */,
 				A788A96725D7A1CD005D5957 /* XibFilesOwnerView.xib in Resources */,
+				A788A97A25D7C312005D5957 /* XibViewController.xib in Resources */,
 				A788A95425D79E76005D5957 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -177,6 +184,7 @@
 				A788A96425D7A0F3005D5957 /* CodeOnlyView.swift in Sources */,
 				A788A97525D7BF5C005D5957 /* CodeOnlyViewController.swift in Sources */,
 				A788A97225D7B48B005D5957 /* XibCustomClassView.swift in Sources */,
+				A788A97925D7C312005D5957 /* XibViewController.swift in Sources */,
 				A788A94D25D79E76005D5957 /* AppDelegate.swift in Sources */,
 				A788A96A25D7A26E005D5957 /* XibFilesOwnerView.swift in Sources */,
 				A788A94F25D79E76005D5957 /* SceneDelegate.swift in Sources */,

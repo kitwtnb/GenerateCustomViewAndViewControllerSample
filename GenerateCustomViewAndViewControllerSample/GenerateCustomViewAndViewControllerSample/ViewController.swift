@@ -23,4 +23,12 @@ class ViewController: UIViewController {
         let codeOnlyViewController = CodeOnlyViewController()
         precondition(codeOnlyViewController.label != nil)
     }
+
+    @IBAction func didTapTransitionToXibViewController(_ sender: Any) {
+        let xibViewController = XibViewController(nibName: String(describing: XibViewController.self), bundle: nil)
+        present(xibViewController, animated: true, completion: nil)
+    }
+
+    @IBAction func didTapTransitionToStoryboardViewController(_ sender: Any) {
+    }
 }
