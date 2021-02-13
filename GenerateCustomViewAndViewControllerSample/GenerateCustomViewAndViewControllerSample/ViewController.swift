@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func didTapTransitionToXibViewController(_ sender: Any) {
-        let xibViewController = XibViewController(nibName: String(describing: XibViewController.self), bundle: nil)
+        let xibViewController = XibViewController(arg: nil)
         present(xibViewController, animated: true, completion: nil)
     }
 
