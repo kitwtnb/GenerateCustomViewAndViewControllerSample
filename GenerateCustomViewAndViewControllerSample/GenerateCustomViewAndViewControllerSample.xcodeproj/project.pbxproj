@@ -14,6 +14,8 @@
 		A788A95625D79E76005D5957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A788A95525D79E76005D5957 /* Assets.xcassets */; };
 		A788A95925D79E76005D5957 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A788A95725D79E76005D5957 /* LaunchScreen.storyboard */; };
 		A788A96425D7A0F3005D5957 /* CodeOnlyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A788A96325D7A0F3005D5957 /* CodeOnlyView.swift */; };
+		A788A96725D7A1CD005D5957 /* XibFilesOwnerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A788A96625D7A1CD005D5957 /* XibFilesOwnerView.xib */; };
+		A788A96A25D7A26E005D5957 /* XibFilesOwnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A788A96925D7A26E005D5957 /* XibFilesOwnerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		A788A95825D79E76005D5957 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A788A95A25D79E76005D5957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A788A96325D7A0F3005D5957 /* CodeOnlyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeOnlyView.swift; sourceTree = "<group>"; };
+		A788A96625D7A1CD005D5957 /* XibFilesOwnerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibFilesOwnerView.xib; sourceTree = "<group>"; };
+		A788A96925D7A26E005D5957 /* XibFilesOwnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibFilesOwnerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 			isa = PBXGroup;
 			children = (
 				A788A96325D7A0F3005D5957 /* CodeOnlyView.swift */,
+				A788A96925D7A26E005D5957 /* XibFilesOwnerView.swift */,
+				A788A96625D7A1CD005D5957 /* XibFilesOwnerView.xib */,
 			);
 			path = CustomView;
 			sourceTree = "<group>";
@@ -145,6 +151,7 @@
 			files = (
 				A788A95925D79E76005D5957 /* LaunchScreen.storyboard in Resources */,
 				A788A95625D79E76005D5957 /* Assets.xcassets in Resources */,
+				A788A96725D7A1CD005D5957 /* XibFilesOwnerView.xib in Resources */,
 				A788A95425D79E76005D5957 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,6 +166,7 @@
 				A788A95125D79E76005D5957 /* ViewController.swift in Sources */,
 				A788A96425D7A0F3005D5957 /* CodeOnlyView.swift in Sources */,
 				A788A94D25D79E76005D5957 /* AppDelegate.swift in Sources */,
+				A788A96A25D7A26E005D5957 /* XibFilesOwnerView.swift in Sources */,
 				A788A94F25D79E76005D5957 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
