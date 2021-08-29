@@ -1,5 +1,5 @@
 import UIKit
 
-class CodeOnlyViewController {
+class CodeOnlyViewController: UIViewController {
     let label = UILabel()
 }
